@@ -69,7 +69,8 @@ adv.forEach(element => {      //todo -->    adv.forEach(function (item) {
 // console.log(genres);
 
 
-const poster = document.querySelector(".promo__bg"),  //! >> querySelector - vzjali potomu 4to sklass promo toljko 1 raz na stranice.
+const poster = document.querySelector(".promo__bg"),  //! >> querySelector - vzjali potomu 4to sklass promo toljko 1raz
+//! 1 raz na vsej HTML stranice etot klass 
     //todo tut uze ne document a poster ---- tak kak on uze vi6e vzjal vse dannie iz promo_bg
     genre = poster.querySelector(".promo__genre");
 genre.textContent = "Драмма";

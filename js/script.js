@@ -4,9 +4,9 @@ const box = document.getElementById("box"),
     btns = document.getElementsByTagName("button"),
     circles = document.getElementsByClassName("circle"),
     hearts = document.querySelectorAll(".heart"),  
-    // hearts = wrapper.querySelectorAll(".heart"),... document na to gde KONKRETNO i6im  //! >>>> OBJAZATELJNO TOCHA   .HEART
+// hearts = wrapper.querySelectorAll(".heart"),. document na to gde KONKRETNO i6im  //! >>>> OBJAZATELJNO TOCHA .HEART
     oneFirstHeart = document.querySelector(".heart");
-    // wparrer  = document....... (wparrer);   //? esli ispoljzuem e6e raz delaem peremennuju
+// wparrer  = document....... (wparrer);   //? esli ispoljzuem e6e raz delaem peremennuju
 
                                          //!  inline style
 box.style.backgroundColor = "black";
